@@ -16,7 +16,7 @@ namespace Fib
 			while(j <= upperlimit)				     //Run the loop while our current value is less than or equal to our upperlimit
 			{
 
-				if (j % 2 == 0) {			     //This is a modulas operator - It gives us the reminder of division. If you divide by 2 and end up with no remainder, you have an even number
+				if (j % 2 == 0) {			     //This is a Modulus Operator - It gives us the reminder of division. If you divide by 2 and end up with no remainder, you have an even number
 					Console.WriteLine (j + " " + "*");   //Star our even numbers to check the logic
 					evensum += j;			     // += will add the current value of evensum AND j, a longer form would look like this: evensum = evensum + j;
 				} else {
